@@ -1,0 +1,18 @@
+/* 
+Fixes the control to be more responsive
+Because padding is counted as click area
+While margin does not
+ */
+nav .sidenav-trigger {
+  margin: 0;
+  padding: 0 18px;
+}
+
+.margin-y-1 {
+  margin: 1rem 0 !important;
+}
+
+.full-height {
+  max-height: 100% !important;
+  height: 100% !important;
+}
