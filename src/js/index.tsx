@@ -19,4 +19,4 @@ ReactDOM.render(
   document.querySelector('#root')
 )
 
-navigator.serviceWorker.register('/service-worker.js')
+navigator.serviceWorker.register('./service-worker.js')
